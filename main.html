@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>main page</title>
+    <style>
+    @font-face{
+      font-family:'Bahagia';
+      src:local('Bahagia'), url('Bahagia.ttf') format('truetype');
+    }
+    @font-face{
+      font-family:'eunyoung';
+      src:url('eunyoung.ttf') format('truetype');
+    }
+    #container{
+      width:1200px;
+      padding:20px;
+      margin:0 auto;
+      border: dashed gray;
+    }
+    header h1{
+      font:lighter 60px 'Bahagia';
+      text-align:center;
+      text-shadow:3px 3px #A9AAE6;
+      color:#636363;
+      border-bottom-width:5px;
+      border-bottom-color:black;
+    }
+    nav a:link, a:visited{
+      text-decoration:none;
+      color:black;
+    }
+    nav a:hover{
+      background:url("1.png") no-repeat center;
+      background-size:contain;
+      color:gray;
+    }
+    nav ul{
+      padding:0 150px;
+    }
+    nav ul li{
+      text-decoration:none;
+      font:lighter 35px 'Bahagia';
+      float:left;
+      text-align:center;
+      display:inline-block;
+      padding:50px 55px;
+      height:100px;
+
+    }
+    img[src]{
+      padding-top:50px;
+      margin:0 100px;
+    }
+    p{
+      text-align:center;
+      font:30px 'eunyoung';
+    }
+    </style>
+
+  </head>
+  <body>
+    <div id="container">
+    <header>
+      <h1>YunJi's Playlist</h1>
+      <nav>
+        <ul>
+          <li><a href="jeokjae.html">Jeokjae</a>
+          <li><a href="IU.html">IU</a>
+          <li><a href="BaekYerin.html">BaekYerin</a>
+          <li><a href="Loco.html">Loco</a>
+          <li><a href="Samkim.html">SamKim</a>
+        </ul>
+      </nav>
+
+    </header>
+
+    <section>
+      <p><img src="main.jpg"></p>
+      <br>
+      <p>"이 블로그는 음악을 즐겨듣는 저의 playlist를 기록, 소개하기 위한 공간입니다."</p>
+    </section>
+  </div>
+  </body>
+</html>
