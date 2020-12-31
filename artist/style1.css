@@ -1,0 +1,82 @@
+@font-face{
+  font-family:'Bahagia';
+  src:local('Bahagia'), url('../Bahagia.ttf') format('truetype');
+}
+@font-face{
+  font-family:'eunyoung';
+  src:url('../eunyoung.ttf') format('truetype');
+}
+@font-face{
+  font-family:'jejumyeongjo';
+  src:url('../jejumyeongjo.ttf') format('truetype');
+}
+#container{
+  width:1400px;
+  padding:20px;
+  margin:0 auto;
+  border: dashed gray;
+}
+header h1{
+  font:lighter 60px 'Bahagia';
+  text-align:center;
+  text-shadow:3px 3px #A9AAE6;
+  color:#636363;
+  border-bottom-width:5px;
+  border-bottom-color:black;
+}
+a:link, a:visited{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  background:url("../1.png") no-repeat center;
+  background-size:contain;
+  color:gray;
+}
+header nav {
+  height:150px;
+  padding:0 150px;
+}
+header nav ul li{
+  text-decoration:none;
+  font:lighter 35px 'Bahagia';
+  float:left;
+  text-align:center;
+  display:inline-block;
+  padding:50px 60px;
+  height:100px;
+
+}
+img[src]{
+  padding-top:50px;
+  margin:0 100px;
+}
+section{
+  height:800px;
+  font:20px 'jejumyeongjo';
+}
+
+section nav{
+  width:300px;
+}
+section nav ul{
+  width:200px;
+  height:500px;
+  list-style-type:none;
+  display:inline-block;
+  float:left;
+  border-right: dashed #DCDCDC;
+}
+section nav ul li {
+  height:70px;
+}
+.content{
+  display:inline-block;
+  float:left;
+}
+
+#introduce{
+  height:400px;
+  display:inline-block;
+  float:none;
+}
